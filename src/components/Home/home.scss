@@ -1,0 +1,132 @@
+.p__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.p__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-top: 5rem;
+    margin-left: 3rem;
+    font-size: 20px;
+    color: var(--font-med-emphasis);
+
+    h1 {
+        padding: 20px 0;
+        font-weight: 600;
+        font-size: 62px;
+        line-height: 75px;
+        color: var(--font-high-emphasis);
+        font-family: var(--main-font);
+    }
+
+    p {
+        font-family: var(--text-font);
+
+    }
+}
+
+.above-header{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: var(--color-white);
+}
+
+.header-horiz_line {
+    width: 200px;
+    height: 2px;
+    margin: 10px;
+    font-weight: 500;
+    
+    border-top: 3px solid #FDC435;
+    border-radius: 1px;    
+}
+
+.p__header-content_button {
+    padding: 30px 0;
+
+    button {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 36px;
+        font-size: 1rem;
+    
+        width: 170px;
+        height: 50px;
+    
+        background: var(--color-yellow);
+        border-radius: 25px;
+        border-style: none;
+        flex: none;
+    
+        cursor: pointer;
+    
+        &:hover {
+            color: var(--color-yellow);
+            background: var(--color-white);
+            font-weight: 400;
+        }
+    }
+}
+
+.header-img {
+    position: absolute;
+    width: 777px;
+    height: 777px;
+    right: -57px;
+    bottom: 60px;
+}
+
+@media screen and (max-width: 1050px) {
+    .p__header {
+        flex-direction: column;
+    }
+
+    .p__header-content {
+        margin: 0 0 3rem;
+    }
+
+    .p__header-image {
+        size: 70%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .p__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .p__header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .p__header-content button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .p__header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .p__header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .p__header-content button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

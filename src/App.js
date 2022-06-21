@@ -1,10 +1,10 @@
 import React from 'react'
 import { About, Home, Navbar, Projects, Footer } from './components'
-import './index.css'
+import './index.scss'
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className='app__container'>
         <div className="gradient__bg">
             <Navbar />
             <Home />

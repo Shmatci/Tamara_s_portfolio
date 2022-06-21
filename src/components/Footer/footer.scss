@@ -1,0 +1,97 @@
+.p__footer .p__footer-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+
+    position: absolute;
+    width: 192px;
+    height: 102px;
+    left: calc(50% - 192px/2);
+    top: 2709px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+}
+
+.footer-icon {
+    padding: 16px;
+
+    
+}
+
+.github-icon {
+    width: 35px;
+    height: 35px;
+
+    left: 10.94%;
+    right: 10.94%;
+    top: 10.94%;
+    bottom: 10.94%;
+
+    background-color: var(--color-bg);
+    color: var(--font-high-emphasis);
+
+    :hover {
+        color: var(--color-yellow);
+    }
+}
+
+.linkedin-icon {
+    width: 35px;
+    height: 35px;
+
+    left: 10.42%;
+    right: 10.42%;
+    top: 10.42%;
+    bottom: 10.42%;
+
+    background-color: var(--color-bg);
+    color: var(--font-high-emphasis);
+
+    :hover {
+        color: var(--color-yellow);
+    }
+}
+
+.behance-icon {
+    width: 35px;
+    height: 35px;
+
+    left: 6.25%;
+    right: 6.25%;
+    top: 16.67%;
+    bottom: 16.67%;
+
+    background-color: var(--color-bg);
+    color: var(--font-high-emphasis);
+
+    :hover {
+        color: var(--color-yellow);
+    }
+}
+
+.footer-text {
+    width: 160px;
+    height: 22px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: var(--font-high-emphasis);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    margin-bottom: 100px;
+}

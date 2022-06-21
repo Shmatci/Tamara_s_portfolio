@@ -3,10 +3,12 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 :root {
     --main-font: 'Playfair Display', sans-serif;
     --font-logo: 'Comfortaa', cursive;
+    --text-font: 'Nunito', sans-serif;
     
     --color-bg: #E5E5E5;
     --font-high-emphasis: #25282B;
@@ -24,8 +26,12 @@
     scroll-behavior: smooth;
 }
 
-body {
-    background: var(--color-bg);
+.app__container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    background-color: var(--color-bg);
 }
 
 a { 

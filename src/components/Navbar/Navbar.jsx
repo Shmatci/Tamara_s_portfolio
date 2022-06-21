@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri'
-import './navbar.css'
+import './navbar.scss'
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className='p__navbar'> 
       <div className="p__navbar-links">
         <div className="p__navbar-links_logo">
-          <p><a href="#logo">Tamara Vuksan</a></p>
+          <p><a href="#home">~/Documents/Coding/Portfolio$</a></p>
         </div>
         <div className="p__navbar-links_container">
           <p><a href="#home">Home</a></p>

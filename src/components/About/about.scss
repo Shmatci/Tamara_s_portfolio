@@ -1,0 +1,117 @@
+.p__about {
+    display: block;
+    position: relative;
+    width: fit-content;
+    height: 944px;
+    margin-left: 3rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.about-horiz_line {
+    width: 120px;
+    height: 4px;
+    margin: 20px;
+    
+    border-top: 3px solid #FDC435;
+    border-radius: 1px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.p__about-text-container {
+    position: absolute;
+    width: 488px;
+    height: 323px;
+    left: 120px;
+    top: 199px;
+
+    h2 {
+        width: 588px;
+        height: 52px;
+
+        font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 72px;
+        color: var(--font-high-emphasis);
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    p {
+        width: 588px;
+        height: 144px;
+
+        font-family: var(--text-font);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+        color: var(--font-med-emphasis);
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+}
+
+.image-container {
+    position: relative ;
+    left: 996px;
+    top: 194px;
+}
+
+.image {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+.about-buttons {
+    padding: 50px;
+    text-align: center;
+
+    button {
+        display: inline-block;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 52px;
+        font-size: 1rem;
+
+        cursor: pointer;
+    
+        width: 170px;
+        height: 50px;
+    
+        background: var(--color-yellow);
+        border-radius: 25px;
+        border-style: none;
+        flex: none;
+
+        &:hover {
+            background-color: var(--color-white);
+            color: var(--color-yellow);
+            font-weight: 400;
+        }
+    }
+}
+
+.divider {
+    width: 20px;
+    height: auto;
+    display: inline-block;
+}
+

@@ -1,8 +1,8 @@
 import React from 'react'
 import riba from '../../assets/riba.png'
 
-import Feature from '../Feature/Feature'
-import './projects.css'
+import './projects.scss'
+import { FaGithub } from 'react-icons/fa'
 
 
 const Projects = () => {
@@ -14,32 +14,107 @@ const Projects = () => {
       </div>
       <div className="p__projects-container-all">
         <div className="p__projects-container">
-          <div className="text-frame">
-            <Feature 
-            title="UX/UI Website React JS" 
-            text="orem, ipsum dolor sit amet consectetur adipisicing elit. Rem nihil exercitationem tempore eligendi, dolore, quas alias." 
-            button="Preview Button" 
-            codeButton="Github" 
-            />
-
-            <Feature 
-            title="Portfolio Website" 
-            text="orem, ipsum dolor sit amet consectetur adipisicing elit. Rem nihil exercitationem tempore eligendi, dolore, quas alias." 
-            button="Preview Button" 
-            codeButton="Github"  
-            />                   
-
-            <Feature 
-            title="Full Stack ecommerce React app" 
-            text="orem, ipsum dolor sit amet consectetur adipisicing elit. Rem nihil exercitationem tempore eligendi, dolore, quas alias." 
-            button="Preview Button" 
-            codeButton="Github" 
-            />      
-          </div>       
-          <div className="p__projects-image">
-            <Feature image={riba} />
+          <div className="image">
+            <img src={riba} alt="" />
+          </div>
+          <div className="hover-text-frame">
+            <h3>UX/UI Website React JS</h3>
+            <div className="icons">
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+                <i>< FaGithub /></i>
+              </a>
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+                <i>< FaGithub /></i>
+              </a>
+            </div>
           </div>
         </div>
+
+        <div className="p__projects-container">
+          <div className="image">
+            <img src={riba} alt="" />
+          </div>
+          <div className="hover-text-frame">
+            <h3>Portfolio Website</h3>
+            <div className="icons">
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+                <i>< FaGithub /></i>
+              </a>
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+                <i>< FaGithub /></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="p__projects-container">
+          <div className="image">
+            <img src={riba} alt="" />
+          </div>
+          <div className="hover-text-frame">
+            <h3>Full Stack ecommerce React app</h3>
+            <div className="icons">
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+                <FaGithub className='git-icon'/>
+              </a>
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+                <i>< FaGithub /></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="p__projects-container">
+          <div className="image">
+            <img src={riba} alt="" />
+          </div>
+          <div className="hover-text-frame">
+            <h3>Full Stack ecommerce React app</h3>
+            <div className="icons">
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+                <i>< FaGithub /></i>
+              </a>
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+                <i>< FaGithub /></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="p__projects-container">
+          <div className="image">
+            <img src={riba} alt="" />
+          </div>
+          <div className="hover-text-frame">
+            <h3>Full Stack ecommerce React app</h3>
+            <div className="icons">
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+                <i>< FaGithub /></i>
+              </a>
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+                <i>< FaGithub /></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="p__projects-container">
+          <div className="image">
+            <img src={riba} alt="" />
+          </div>
+          <div className="hover-text-frame">
+            <h3>Full Stack ecommerce React app</h3>
+            <div className="icons">
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+                <i>< FaGithub /></i>
+              </a>
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+                <i>< FaGithub /></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </div>
   )

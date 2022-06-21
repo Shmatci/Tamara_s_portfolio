@@ -1,0 +1,146 @@
+.p__projects {
+    display: block;
+    position: relative;
+    width: fit-content;
+    margin-left: 10rem;
+}
+
+.p__projects-heading {
+    display: flex;
+    justify-content: center;
+ 
+    h1 {
+        width: 181px;
+        height: 72px;
+
+        font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 72px;
+
+        color: var(--font-high-emphasis);
+    }
+
+    hr {
+        width: 120px;
+        height: 4px;
+
+        border-top: 3px solid #FDC435;
+        border-radius: 1px;
+
+    }
+}
+
+
+.p__projects-container-all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-top: 3rem;
+
+    width: 1296px;
+} 
+
+.p__projects-container {
+    position: relative;
+    border-radius: 15px;
+
+    img {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+}
+
+.hover-text-frame {
+    width: 400px;
+    height: 300px;
+    background-color: var(--color-yellow);
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.6s ease-in-out;
+
+    h3 {
+        font-size: 1.5rem;
+        color: var(--color-white);
+        margin-bottom: 1.5rem;
+    }
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    background-color: var(--font-high-emphasis);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+    i {
+        font-size: 2rem;
+        color: var(--color-white);
+
+        &:hover {
+            color: var(--color-yellow);
+        }
+    }
+
+    &:hover {
+        background-color: var(--color-white);
+    }
+}
+
+
+.p__projects-container:hover .hover-text-frame {
+    opacity: 1;
+    transform: scale(1);
+}
+
+@media screen and (max-width: 1432px) {
+    .p__projects {
+      padding: 7rem 11rem;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .p__projects {
+      padding: 7rem 6rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .p__projects {
+      padding: 7rem 3rem;
+    }
+}
+
+.git-icon {
+    width: 35px;
+    height: 35px;
+
+    background-color: var(--color-yellow);
+    color: var(--font-high-emphasis);
+
+    :hover {
+        color: var(--color-white);
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import './home.css'
+import './home.scss'
 import yellow from '../../assets/yellow-bg.png'
 
 const Home = () => {
@@ -7,6 +7,7 @@ const Home = () => {
     <div className='p__header section__padding' id='home'>
       <div className="p__header-content">
         <p className='above-header'>Junior Web Developer</p>
+        <hr className='header-horiz_line'/>
         <h1 className="header-text">Hello, my name <br />
           is Tamara Vuksan</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
@@ -19,7 +20,7 @@ const Home = () => {
         </div>
       </div>
       <div className="p__header-image">
-        <img src={yellow} />
+        <img src={yellow} className="header-img" />
       </div>
     </div>
   )
