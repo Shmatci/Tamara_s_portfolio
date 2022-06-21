@@ -15,9 +15,9 @@ const Home = () => {
            ea impedit officia. Distinctio voluptatibus voluptatum <br />
            totam voluptate soluta, officia necessitatibus sunt.</p>
 
-        <div className="p__header-content_button">
-          <button type='button'>Download CV</button>
-        </div>
+        <a href="https://www.linkedin.com/in/tamara-vuksan-15119ab1/overlay/1635494330105/single-media-viewer/" className="p__header-content_button">
+          <button type='button'>Resume</button>
+        </a>
       </div>
       <div className="p__header-image">
         <img src={yellow} className="header-img" />

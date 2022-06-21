@@ -1,30 +1,29 @@
+.p__footer {
+    background-color: var(--color-bg);
+    position: absolute;
+    width: 100%;
+    top: 2509px;
+}
+
 .p__footer .p__footer-social {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 22px;
-
-    position: absolute;
-    width: 192px;
-    height: 102px;
-    left: calc(50% - 192px/2);
-    top: 2709px;
+    gap: 5px;
 }
-
+    
 .social-icons {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    padding: 30px;
     flex: none;
 }
 
 .footer-icon {
-    padding: 16px;
-
-    
+    padding: 16px;    
 }
 
 .github-icon {
@@ -79,19 +78,18 @@
 }
 
 .footer-text {
-    width: 160px;
+    width: 180px;
     height: 22px;
 
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
 
     color: var(--font-high-emphasis);
     flex: none;
     order: 1;
     flex-grow: 0;
 
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
