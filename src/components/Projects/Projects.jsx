@@ -1,5 +1,8 @@
 import React from 'react'
 import riba from '../../assets/riba.png'
+import micael from '../../assets/Micael_portfolio.png'
+import movieland from '../../assets/Rocky_movieland.png'
+import uiux from '../../assets/UI-UX_website.png'
 
 import './projects.scss'
 import { FaGithub, FaArrowRight } from 'react-icons/fa'
@@ -15,7 +18,7 @@ const Projects = () => {
       <div className="p__projects-container-all">
         <div className="p__projects-container">
           <div className="image">
-            <img src={riba} alt="" />
+            <img src={micael} alt="" />
           </div>
           <div className="hover-text-frame">
             <h3>UX/UI Website React JS</h3>
@@ -66,7 +69,7 @@ const Projects = () => {
 
         <div className="p__projects-container">
           <div className="image">
-            <img src={riba} alt="" />
+            <img src={micael} alt="" />
           </div>
           <div className="hover-text-frame">
             <h3>Portfolio in React</h3>
@@ -83,7 +86,7 @@ const Projects = () => {
 
         <div className="p__projects-container">
           <div className="image">
-            <img src={riba} alt="" />
+            <img src={movieland} alt="" />
           </div>
           <div className="hover-text-frame">
             <h3>Movieland App</h3>
@@ -100,7 +103,7 @@ const Projects = () => {
 
         <div className="p__projects-container">
           <div className="image">
-            <img src={riba} alt="" />
+            <img src={uiux} alt="" />
           </div>
           <div className="hover-text-frame">
             <h3>UI-UX Webiste React JS</h3>

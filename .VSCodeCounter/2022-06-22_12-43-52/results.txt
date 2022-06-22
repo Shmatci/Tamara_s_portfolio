@@ -1,0 +1,56 @@
+Date : 2022-06-22 12:43:52
+Directory : /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio
+Total : 19 files,  32089 codes, 5 comments, 185 blanks, all 32279 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| JSON             |          3 |     31,173 |          0 |          3 |     31,176 |
+| SCSS             |          6 |        597 |          5 |        121 |        723 |
+| JavaScript React |          5 |        234 |          0 |         22 |        256 |
+| Markdown         |          1 |         38 |          0 |         33 |         71 |
+| JavaScript       |          3 |         28 |          0 |          5 |         33 |
+| HTML             |          1 |         19 |          0 |          1 |         20 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                       |         19 |     32,089 |          5 |        185 |     32,279 |
+| public                                                                                                  |          2 |         44 |          0 |          2 |         46 |
+| src                                                                                                     |         14 |        859 |          5 |        148 |      1,012 |
+| src/components                                                                                          |         11 |        782 |          2 |        133 |        917 |
+| src/components/About                                                                                    |          2 |        127 |          2 |         22 |        151 |
+| src/components/Footer                                                                                   |          2 |        102 |          0 |         22 |        124 |
+| src/components/Home                                                                                     |          2 |        134 |          0 |         28 |        162 |
+| src/components/Navbar                                                                                   |          2 |        165 |          0 |         26 |        191 |
+| src/components/Projects                                                                                 |          2 |        249 |          0 |         35 |        284 |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                                | language         | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/README.md                             | Markdown         |         38 |          0 |         33 |         71 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/package-lock.json                     | JSON             |     31,105 |          0 |          1 |     31,106 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/package.json                          | JSON             |         43 |          0 |          1 |         44 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/public/index.html                     | HTML             |         19 |          0 |          1 |         20 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/public/manifest.json                  | JSON             |         25 |          0 |          1 |         26 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/App.js                            | JavaScript       |         17 |          0 |          2 |         19 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/About/About.jsx        | JavaScript React |         31 |          0 |          2 |         33 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/About/about.scss       | SCSS             |         96 |          2 |         20 |        118 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Footer/Footer.jsx      | JavaScript React |         26 |          0 |          3 |         29 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Footer/footer.scss     | SCSS             |         76 |          0 |         19 |         95 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Home/Home.jsx          | JavaScript React |         26 |          0 |          3 |         29 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Home/home.scss         | SCSS             |        108 |          0 |         25 |        133 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Navbar/Navbar.jsx      | JavaScript React |         35 |          0 |          4 |         39 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Navbar/navbar.scss     | SCSS             |        130 |          0 |         22 |        152 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Projects/Projects.jsx  | JavaScript React |        116 |          0 |         10 |        126 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Projects/projects.scss | SCSS             |        133 |          0 |         25 |        158 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/index.js               | JavaScript       |          5 |          0 |          0 |          5 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/index.js                          | JavaScript       |          6 |          0 |          3 |          9 |
+| /home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/index.scss                        | SCSS             |         54 |          3 |         10 |         67 |
+| Total                                                                                                   |                  |     32,089 |          5 |        185 |     32,279 |
++---------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+

@@ -1,0 +1,21 @@
+"filename", "language", "JSON", "SCSS", "JavaScript React", "Markdown", "HTML", "JavaScript", "comment", "blank", "total"
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/README.md", "Markdown", 0, 0, 0, 38, 0, 0, 0, 33, 71
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/package-lock.json", "JSON", 31105, 0, 0, 0, 0, 0, 0, 1, 31106
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/package.json", "JSON", 43, 0, 0, 0, 0, 0, 0, 1, 44
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/public/index.html", "HTML", 0, 0, 0, 0, 19, 0, 0, 1, 20
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/public/manifest.json", "JSON", 25, 0, 0, 0, 0, 0, 0, 1, 26
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/App.js", "JavaScript", 0, 0, 0, 0, 0, 17, 0, 2, 19
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/About/About.jsx", "JavaScript React", 0, 0, 31, 0, 0, 0, 0, 2, 33
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/About/about.scss", "SCSS", 0, 96, 0, 0, 0, 0, 2, 20, 118
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Footer/Footer.jsx", "JavaScript React", 0, 0, 26, 0, 0, 0, 0, 3, 29
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Footer/footer.scss", "SCSS", 0, 76, 0, 0, 0, 0, 0, 19, 95
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Home/Home.jsx", "JavaScript React", 0, 0, 26, 0, 0, 0, 0, 3, 29
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Home/home.scss", "SCSS", 0, 108, 0, 0, 0, 0, 0, 25, 133
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Navbar/Navbar.jsx", "JavaScript React", 0, 0, 35, 0, 0, 0, 0, 4, 39
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Navbar/navbar.scss", "SCSS", 0, 130, 0, 0, 0, 0, 0, 22, 152
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Projects/Projects.jsx", "JavaScript React", 0, 0, 116, 0, 0, 0, 0, 10, 126
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/Projects/projects.scss", "SCSS", 0, 133, 0, 0, 0, 0, 0, 25, 158
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/components/index.js", "JavaScript", 0, 0, 0, 0, 0, 5, 0, 0, 5
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/index.js", "JavaScript", 0, 0, 0, 0, 0, 6, 0, 3, 9
+"/home/tam/Documents/A_coding/tam_portfolio/pers_port/my-portfolio/src/index.scss", "SCSS", 0, 54, 0, 0, 0, 0, 3, 10, 67
+"Total", "-", 31173, 597, 234, 38, 19, 28, 5, 185, 32279
