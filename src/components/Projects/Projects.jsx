@@ -1,8 +1,5 @@
 import React from 'react'
-import riba from '../../assets/riba.png'
-import micael from '../../assets/Micael_portfolio.png'
-import movieland from '../../assets/Rocky_movieland.png'
-import uiux from '../../assets/UI-UX_website.png'
+import { images } from '../../constants';
 
 import './projects.scss'
 import { FaGithub, FaArrowRight } from 'react-icons/fa'
@@ -16,43 +13,88 @@ const Projects = () => {
         <hr className='horiz_line'/>
       </div>
       <div className="p__projects-container-all">
+
+        {/* First container  */}
+
         <div className="p__projects-container">
           <div className="image">
-            <img src={micael} alt="" />
+            <img src={images.uiux} alt="" />
           </div>
           <div className="hover-text-frame">
-            <h3>UX/UI Website React JS</h3>
+            <h3>UI-UX Webiste React JS</h3>
             <div className="icons">
               <a href="https://github.com/Shmatci/UI-UX-Website-React-JS">
                 <FaGithub className='git-icon'/>
               </a>
-              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+              <a href="https://ui-ux-website-react-js.netlify.app" className='icon'>
+                <FaArrowRight className='web-icon'/>
+              </a>
+            </div>
+          </div>
+        </div>  
+
+        {/* Second container  */}        
+
+        <div className="p__projects-container">
+          <div className="image">
+            <img src={images.movieland} alt="" />
+          </div>
+          <div className="hover-text-frame">
+            <h3>Movieland App</h3>
+            <div className="icons">
+              <a href="https://github.com/Shmatci/Movieland_app">
+                <FaGithub className='git-icon'/>
+              </a>
+              <a href="https://effervescent-cactus-749428.netlify.app/" className='icon'>
                 <FaArrowRight className='web-icon'/>
               </a>
             </div>
           </div>
         </div>
 
+        {/* Third container  */}
+
         <div className="p__projects-container">
           <div className="image">
-            <img src={riba} alt="" />
+            <img src={images.micael} alt="" />
           </div>
           <div className="hover-text-frame">
-            <h3>Portfolio Website</h3>
+            <h3>Portfolio in React</h3>
             <div className="icons">
-              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS">
+              <a href="https://github.com/Shmatci/portfolio_react">
                 <FaGithub className='git-icon'/>
               </a>
-              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS" className='icon'>
+              <a href="https://micael-portfolio-example.netlify.app/" className='icon'>
                 <FaArrowRight className='web-icon'/>
               </a>
             </div>
           </div>
         </div>
 
+        {/* Fourth container  */}        
+
         <div className="p__projects-container">
           <div className="image">
-            <img src={riba} alt="" />
+            <img src={images.loading} alt="" />
+          </div>
+          <div className="hover-text-frame">
+            <h3>Fitness Excersise App</h3>
+            <div className="icons">
+              <a href="https://github.com/Shmatci/Fitness_excerciseApp">
+                <FaGithub className='git-icon'/>
+              </a>
+              <a href="https://github.com/Shmatci/FullStack_ecommerce_reactApp" className='icon'>
+                <FaArrowRight className='web-icon'/>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Fifth container  */}        
+
+        <div className="p__projects-container">
+          <div className="image">
+            <img src={images.micael} alt="" />
           </div>
           <div className="hover-text-frame">
             <h3>Full Stack ecommerce React app</h3>
@@ -67,9 +109,11 @@ const Projects = () => {
           </div>
         </div>
 
+        {/* Last container  */}        
+
         <div className="p__projects-container">
           <div className="image">
-            <img src={micael} alt="" />
+            <img src={images.micael} alt="" />
           </div>
           <div className="hover-text-frame">
             <h3>Portfolio in React</h3>
@@ -83,41 +127,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
-        <div className="p__projects-container">
-          <div className="image">
-            <img src={movieland} alt="" />
-          </div>
-          <div className="hover-text-frame">
-            <h3>Movieland App</h3>
-            <div className="icons">
-              <a href="https://github.com/Shmatci/Movieland_app">
-                <FaGithub className='git-icon'/>
-              </a>
-              <a href="#" className='icon'>
-                <FaArrowRight className='web-icon'/>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="p__projects-container">
-          <div className="image">
-            <img src={uiux} alt="" />
-          </div>
-          <div className="hover-text-frame">
-            <h3>UI-UX Webiste React JS</h3>
-            <div className="icons">
-              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS">
-                <FaGithub className='git-icon'/>
-              </a>
-              <a href="https://ui-ux-website-react-js.netlify.app" className='icon'>
-                <FaArrowRight className='web-icon'/>
-              </a>
-            </div>
-          </div>
-        </div>
-        
+       
       </div>
     </div>
   )
