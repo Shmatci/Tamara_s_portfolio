@@ -75,7 +75,7 @@ const Projects = () => {
 
         <div className="p__projects-container">
           <div className="image">
-            <img src={images.loading} alt="" />
+            <img src={images.fitness} alt="" />
           </div>
           <div className="hover-text-frame">
             <h3>Fitness Excersise App</h3>
@@ -94,12 +94,12 @@ const Projects = () => {
 
         <div className="p__projects-container">
           <div className="image">
-            <img src={images.micael} alt="" />
+            <img src={images.loading} alt="" />
           </div>
           <div className="hover-text-frame">
-            <h3>Full Stack ecommerce React app</h3>
+            <h3>React Admin Dashboard</h3>
             <div className="icons">
-              <a href="https://github.com/Shmatci/FullStack_ecommerce_reactApp">
+              <a href="https://github.com/Shmatci/React_admin_dashboard">
                 <FaGithub className='git-icon'/>
               </a>
               <a href="#" className='icon'>
@@ -113,7 +113,7 @@ const Projects = () => {
 
         <div className="p__projects-container">
           <div className="image">
-            <img src={images.micael} alt="" />
+            <img src={images.loading} alt="" />
           </div>
           <div className="hover-text-frame">
             <h3>Portfolio in React</h3>
