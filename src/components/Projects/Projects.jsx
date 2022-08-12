@@ -45,7 +45,7 @@ const Projects = () => {
               <a href="https://github.com/Shmatci/Movieland_app">
                 <FaGithub className='git-icon'/>
               </a>
-              <a href="https://effervescent-cactus-749428.netlify.app/" className='icon'>
+              <a href="https://noname-app.netlify.app/" className='icon'>
                 <FaArrowRight className='web-icon'/>
               </a>
             </div>

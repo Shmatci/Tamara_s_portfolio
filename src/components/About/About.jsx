@@ -19,8 +19,8 @@ const About = () => {
         to go into Development. I took the self-taught route and got to learn "Basics of <br />
         Web Development" from University of Michigan and their Coursera course, <br />
         "Introduction to computer science and programming" from MIT, "CS50" and "CS50 <br />
-        Web" from Harvard University. <br />
-        I am very eager to learn and make a succesful career. </p>
+        Web" from Harvard University and currently following "Introduction to Algorithms"<br />
+        from MIT. I am very eager to learn and make a succesful career. </p>
         <p>Some of the technologies that I have been using:</p>
         <div className="tech-icons">
           <FaHtml5 className='tech'/>
