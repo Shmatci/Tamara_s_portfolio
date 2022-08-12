@@ -11,9 +11,16 @@ const About = () => {
           <h2>About me</h2>
           <hr className='about-horiz_line'/>
         </div>
-        <p className="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos delectus, <br />
-        quidem distinctio labore sed ut voluptate veritatis, laudantium, laborum ratione quos magni <br />
-        eveniet aliquid consequatur nam. Ut distinctio neque nemo.</p>
+        <p className="about-text">
+        Hi there, thank you for making interest in my portfolio. Let me tell you a little <br />
+        something about me. I have studied Architecture but life had different ideas for <br />
+        me. For a while I worked as a Graphic but moving to the UK and last couple of <br />
+        years made me persue a different path than originally planned. Hence the desicion <br />
+        to go into Development. I took the self-taught route and got to learn "Basics of <br />
+        Web Development" from University of Michigan and their Coursera course, <br />
+        "Introduction to computer science and programming" from MIT, "CS50" and "CS50 <br />
+        Web" from Harvard University. <br />
+        I am very eager to learn and make a succesful career. </p>
         <p>Some of the technologies that I have been using:</p>
         <div className="tech-icons">
           <FaHtml5 className='tech'/>

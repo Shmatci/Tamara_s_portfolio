@@ -116,7 +116,7 @@ const Projects = () => {
             <img src={images.loading} alt="" />
           </div>
           <div className="hover-text-frame">
-            <h3>Portfolio in React</h3>
+            <h3>Ecommerce web shop - in process</h3>
             <div className="icons">
               <a href="https://github.com/Shmatci/portfolio_react">
                 <FaGithub className='git-icon'/>
