@@ -64,11 +64,11 @@ const Home = () => {
             </h1>
           </h2>
           <hr className='header-horiz_line'/>
-        <p>I am a self-taught developer who studied Architecture, <br />
-           worked as a Freelance Graphic Designer and has a variety <br />
-           of experience in customer facing roles.  <br />
-           Please take a look at my CV clicking on the button bellow.</p>
-
+        <p>As a self-taught front-end engineer with a background in architecture and graphic design, <br />
+            I bring a unique blend of creativity and technical expertise to every project. With experience <br />
+            in HTML, CSS, React, JS, Python, Next.js, Node.js, Git, Sass, Tailwind, Bootstrap, and Jamstack, <br />
+            I am well-versed in the latest tools and technologies.
+        </p>
         <a href="https://www.linkedin.com/in/tamara-vuksan-15119ab1/overlay/1635494330105/single-media-viewer/" className="p__header-content_button">
           <button type='button'>Resume</button>
         </a>

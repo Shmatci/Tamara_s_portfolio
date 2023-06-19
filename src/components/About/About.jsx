@@ -16,11 +16,11 @@ const About = () => {
         something about me. I have studied Architecture but life had different ideas for <br />
         me. For a while I worked as a Graphic but moving to the UK and last couple of <br />
         years made me persue a different path than originally planned. Hence the desicion <br />
-        to go into Development. I took the self-taught route and got to learn "Basics of <br />
-        Web Development" from University of Michigan and their Coursera course, <br />
-        "Introduction to computer science and programming" from MIT, "CS50" and "CS50 <br />
-        Web" from Harvard University and currently following "Introduction to Algorithms"<br />
-        from MIT. I am very eager to learn and make a succesful career. </p>
+        to go into Development. I took the self-taught route and got to learn from University<br />
+         of Michigan, MIT, Harvard University and many others. <br />
+          I am passionate about using my skills to help businesses achieve their goals,<br />
+         and I thrive in a collaborative, team-oriented environment. As a lifelong learner,<br />
+          I am always eager to expand my knowledge and take on new challenges.</p>
         <p>Some of the technologies that I have been using:</p>
         <div className="tech-icons">
           <FaHtml5 className='tech'/>

@@ -18,15 +18,15 @@ const Projects = () => {
 
         <div className="p__projects-container">
           <div className="image">
-            <img src={images.uiux} alt="" />
+            <img src={images.screen} alt="" />
           </div>
           <div className="hover-text-frame">
-            <h3>UI-UX Webiste React JS</h3>
+            <h3>NextJS React Bootstrap Website</h3>
             <div className="icons">
-              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS">
+              <a href="https://github.com/Shmatci/SimedGlobal_website">
                 <FaGithub className='git-icon'/>
               </a>
-              <a href="https://ui-ux-website-react-js.netlify.app" className='icon'>
+              <a href="https://www.simedglobal.com" className='icon'>
                 <FaArrowRight className='web-icon'/>
               </a>
             </div>
@@ -94,6 +94,26 @@ const Projects = () => {
 
         <div className="p__projects-container">
           <div className="image">
+            <img src={images.uiux} alt="" />
+          </div>
+          <div className="hover-text-frame">
+            <h3>UI-UX Webiste React JS</h3>
+            <div className="icons">
+              <a href="https://github.com/Shmatci/UI-UX-Website-React-JS">
+                <FaGithub className='git-icon'/>
+              </a>
+              <a href="https://ui-ux-website-react-js.netlify.app" className='icon'>
+                <FaArrowRight className='web-icon'/>
+              </a>
+            </div>
+          </div>
+        </div> 
+
+
+        {/* Last container  */}        
+
+        <div className="p__projects-container">
+          <div className="image">
             <img src={images.loading} alt="" />
           </div>
           <div className="hover-text-frame">
@@ -108,25 +128,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
-        {/* Last container  */}        
-
-        <div className="p__projects-container">
-          <div className="image">
-            <img src={images.loading} alt="" />
-          </div>
-          <div className="hover-text-frame">
-            <h3>Ecommerce web shop - in process</h3>
-            <div className="icons">
-              <a href="https://github.com/Shmatci/portfolio_react">
-                <FaGithub className='git-icon'/>
-              </a>
-              <a href="https://micael-portfolio-example.netlify.app" className='icon'>
-                <FaArrowRight className='web-icon'/>
-              </a>
-            </div>
-          </div>
-        </div>
+        
        
       </div>
     </div>
